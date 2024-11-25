@@ -24,7 +24,7 @@ public class MusicalServlet extends HttpServlet{
 	        }
 
 	        // JSP로 포워딩
-	        req.getRequestDispatcher("Musical.jsp").forward(req, resp);
+	        req.getRequestDispatcher("views/Musical.jsp").forward(req, resp);
 	    }
 
 }
